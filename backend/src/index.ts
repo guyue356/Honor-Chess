@@ -9,7 +9,13 @@ import type { Env } from './types'
 
 const app = new Hono<{ Bindings: Env }>()
 
-app.use('*', cors())
+// CORS: allow same-origin (Pages proxy) + specific domains
+app.use('*', cors({
+  origin: ['*'],
+  allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowHeaders: ['Content-Type', 'Authorization'],
+  maxAge: 86400,
+}))
 
 // Public routes
 app.route('/api/auth', auth)

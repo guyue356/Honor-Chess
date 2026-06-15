@@ -1,4 +1,4 @@
-# 王者荣耀英雄杀 (Honor Chess Hero Kill)
+# 荣耀冲突 (Honor Clash)
 
 基于王者荣耀英雄IP的1v1卡牌对战游戏，融合王者峡谷世界观卡牌玩法与炉石传说法力值系统。
 
@@ -96,7 +96,7 @@ npm run dev
 ### 项目结构
 
 ```
-Honor Chess/
+Honor-Clash/
 ├── frontend/                # Vue 3 + TypeScript + Vite 前端
 │   ├── src/
 │   │   ├── views/          # 页面组件
@@ -120,6 +120,12 @@ Honor Chess/
 │   │   └── stores/         # Pinia 状态管理
 │   │       ├── game.ts           # 游戏状态
 │   │       └── rank.ts           # 段位状态
+│   ├── functions/          # Cloudflare Pages Functions (API代理)
+│   │   └── api/[[path]].ts
+│   ├── public/
+│   │   ├── _headers        # 安全响应头
+│   │   ├── heroes/images/  # 30位英雄头像
+│   │   └── equip/          # 装备图标
 │   └── package.json
 ├── backend/                 # Hono + Cloudflare Workers 后端
 │   ├── src/
@@ -132,6 +138,7 @@ Honor Chess/
 │       ├── info/           # 英雄 JSON 数据（130+）
 │       └── images/         # 英雄头像图片
 ├── PRD.md                   # 产品需求文档
+├── README.md                # 项目说明
 └── 开发计划.md              # 开发里程碑计划
 ```
 
@@ -149,25 +156,60 @@ Honor Chess/
 | 后端框架 | Hono |
 | 运行时 | Cloudflare Workers |
 | 数据库 | Cloudflare D1 (SQLite) |
+| 部署 | Cloudflare Pages + Workers |
 | 认证 | JWT |
 
-## 部署
+## 部署到 Cloudflare
+
+### 1. 创建 D1 数据库
 
 ```bash
-# 创建 D1 数据库
 cd backend
 wrangler d1 create honor-chess-db
+```
+
+将输出的 `database_id` 填入 `wrangler.toml`：
+
+```toml
+[[d1_databases]]
+binding = "DB"
+database_name = "honor-chess-db"
+database_id = "你的database_id"
+```
+
+### 2. 导入数据
+
+```bash
 wrangler d1 execute honor-chess-db --file=./src/db/schema.sql
 wrangler d1 execute honor-chess-db --file=./src/db/seed.sql
-
-# 部署后端到 Cloudflare Workers
-wrangler deploy
-
-# 构建并部署前端到 Cloudflare Pages
-cd ../frontend
-npm run build
-wrangler pages deploy dist --project-name=honor-chess
 ```
+
+### 3. 部署后端 Workers
+
+```bash
+wrangler deploy
+```
+
+记下部署后的 Workers URL（如 `https://honor-chess-api.xxx.workers.dev`）
+
+### 4. 配置前端 API 代理
+
+编辑 `frontend/functions/api/[[path]].ts`，将 `API_URL` 设置为你的 Workers URL。
+
+在 Cloudflare Pages 项目设置中添加环境变量：
+- `API_URL` = `https://honor-chess-api.xxx.workers.dev`
+
+### 5. 部署前端 Pages
+
+```bash
+cd frontend
+npm run build
+wrangler pages deploy dist --project-name=honor-clash
+```
+
+### 6. 绑定自定义域名（可选）
+
+在 Cloudflare Pages 控制台绑定你的域名，如 `honor-clash.example.com`。
 
 ## License
 

@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-4xl mx-auto px-6 py-16 text-center">
-    <h1 class="text-5xl font-bold text-yellow-400 mb-4">王者荣耀英雄杀</h1>
+    <h1 class="text-5xl font-bold text-yellow-400 mb-4">荣耀冲突</h1>
     <p class="text-gray-400 text-lg mb-8">王者峡谷卡牌对战 × 炉石传说法力值 × 英雄专属技能</p>
 
     <!-- Rank badge -->
