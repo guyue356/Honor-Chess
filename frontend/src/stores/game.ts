@@ -2,6 +2,7 @@ import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
 import type { GameState } from '../game/types'
 import { initGame, playCard, endPlayerTurn, canPlayCard, planEnemyTurn, executeOneEnemyCard, finishEnemyTurn } from '../game/engine'
+import type { AIAction } from '../game/engine'
 import { DEMO_HEROES } from '../game/heroes'
 
 export const useGameStore = defineStore('game', () => {

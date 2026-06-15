@@ -16,7 +16,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { RANK_TIERS } from '../stores/rank'
-import type { RankTier } from '../stores/rank'
 
 const props = defineProps<{
   tierIndex: number

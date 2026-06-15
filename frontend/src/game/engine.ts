@@ -400,16 +400,16 @@ export function executeEnemyTurn(state: GameState): GameState {
     const aiActions = aiTurn(newState)
     for (const action of aiActions) {
       if (action.type === 'play_card') {
-        const card = newState.enemy.hand[action.cardIndex]
-        if (card) {
-          const cost = getEffectiveManaCost(card, newState.enemy)
-          if (newState.currentMana >= cost) {
-            newState.currentMana -= cost
-            newState.enemy.hand.splice(action.cardIndex, 1)
-            newState.enemy.discardPile.push(card)
-            addLog(newState, `${newState.enemy.hero.name}使用了「${card.name}」`, 'info')
-            executeCardEffect(newState, card, 'enemy')
-          }
+        const cardIdx = newState.enemy.hand.findIndex(c => c.id === action.cardId)
+        if (cardIdx === -1) continue
+        const card = newState.enemy.hand[cardIdx]
+        const cost = getEffectiveManaCost(card, newState.enemy)
+        if (newState.currentMana >= cost) {
+          newState.currentMana -= cost
+          newState.enemy.hand.splice(cardIdx, 1)
+          newState.enemy.discardPile.push(card)
+          addLog(newState, `${newState.enemy.hero.name}使用了「${card.name}」`, 'info')
+          executeCardEffect(newState, card, 'enemy')
         }
       }
     }
@@ -556,7 +556,7 @@ export function finishEnemyTurn(state: GameState): GameState {
   return newState
 }
 
-interface AIAction {
+export interface AIAction {
   type: 'play_card'
   cardId: string
 }

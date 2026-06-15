@@ -81,7 +81,7 @@ export function startBGM() {
   ensureResumed()
   const ctx = getCtx()
   bgmGain = ctx.createGain()
-  bgmGain.gain.value = 0.5
+  bgmGain.gain.value = 0.8
   bgmGain.connect(ctx.destination)
   bgmPlaying = true
   scheduleLoop()
@@ -145,7 +145,6 @@ function playNoise(duration: number, volume: number = 0.1) {
 // 攻击音效：尖锐的金属碰撞声
 export function playAttackSfx() {
   ensureResumed()
-  const ctx = getCtx()
   // 锐利的起始音
   playSfx('sawtooth', 800, 0.08, 0.12)
   setTimeout(() => playSfx('square', 400, 0.1, 0.08), 30)
@@ -175,8 +174,6 @@ export function playHealSfx() {
 // 护甲/防御音效：低沉的盾牌碰撞
 export function playArmorSfx() {
   ensureResumed()
-  const ctx = getCtx()
-  const now = ctx.currentTime
   // 低沉的撞击
   playSfx('sine', 150, 0.3, 0.12)
   setTimeout(() => playSfx('triangle', 200, 0.2, 0.08), 50)
@@ -209,8 +206,6 @@ export function playSpellSfx() {
 // 装备音效：沉重的装备碰撞
 export function playEquipSfx() {
   ensureResumed()
-  const ctx = getCtx()
-  const now = ctx.currentTime
   // 沉重的撞击
   playSfx('sawtooth', 100, 0.2, 0.08)
   setTimeout(() => playSfx('square', 300, 0.15, 0.06), 50)

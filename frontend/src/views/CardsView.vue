@@ -91,13 +91,13 @@
         <div class="bg-[#1a1a2e] rounded-2xl p-6 border border-gray-700 shadow-2xl max-w-md w-full">
           <div class="flex items-center gap-4 mb-4">
             <div class="w-14 h-14 rounded-xl flex items-center justify-center text-3xl"
-              :class="detailCard.type === 'skill' ? 'bg-yellow-900/50 border border-yellow-500' : detailCard.type === 'equipment' ? 'bg-gray-700/50 border border-gray-500' : 'bg-[#252538] border border-gray-600'">
+              :class="(detailCard as any).type === 'skill' ? 'bg-yellow-900/50 border border-yellow-500' : (detailCard as any).type === 'equipment' ? 'bg-gray-700/50 border border-gray-500' : 'bg-[#252538] border border-gray-600'">
               {{ getEffectConfig(detailCard.effect.type).icon }}
             </div>
             <div>
               <div class="text-white font-bold text-xl">{{ detailCard.name }}</div>
               <div class="text-gray-400 text-sm">
-                {{ detailCard.type === 'skill' ? '英雄专属技能卡' : detailCard.type === 'equipment' ? EQUIP_CATEGORY_NAMES[(detailCard as any).category || 'weapon'] + '装备' : '基础卡牌' }}
+                {{ (detailCard as any).type === 'skill' ? '英雄专属技能卡' : (detailCard as any).type === 'equipment' ? EQUIP_CATEGORY_NAMES[(detailCard as any).category as keyof typeof EQUIP_CATEGORY_NAMES || 'weapon'] + '装备' : '基础卡牌' }}
               </div>
             </div>
           </div>
@@ -119,11 +119,11 @@
             <div class="text-gray-500 text-xs mt-2">{{ getEffectDetail(detailCard.effect) }}</div>
           </div>
 
-          <div v-if="detailCard.heroId" class="bg-[#0d0d1a] rounded-lg p-3 mb-4">
+          <div v-if="(detailCard as any).heroId" class="bg-[#0d0d1a] rounded-lg p-3 mb-4">
             <div class="text-gray-500 text-xs mb-1">所属英雄</div>
             <div class="flex items-center gap-2">
-              <img :src="getHeroImage(detailCard.heroId)" class="w-8 h-8 rounded object-cover" />
-              <span class="text-yellow-400 font-bold">{{ getHeroName(detailCard.heroId) }}</span>
+              <img :src="getHeroImage((detailCard as any).heroId)" class="w-8 h-8 rounded object-cover" />
+              <span class="text-yellow-400 font-bold">{{ getHeroName((detailCard as any).heroId) }}</span>
             </div>
           </div>
 

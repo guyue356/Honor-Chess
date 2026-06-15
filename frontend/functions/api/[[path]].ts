@@ -7,7 +7,7 @@ export const onRequest: PagesFunction<Env> = async (context) => {
   const url = new URL(request.url)
 
   // Target: Workers backend
-  const targetBase = env.API_URL || 'https://honor-chess-api.YOUR_SUBDOMAIN.workers.dev'
+  const targetBase = env.API_URL || 'https://honor-chess-api.yuegu827.workers.dev'
   const targetUrl = new URL(url.pathname + url.search, targetBase)
 
   // Forward the request
