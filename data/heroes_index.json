@@ -1,0 +1,1305 @@
+{
+  "total": 130,
+  "heroes": [
+    {
+      "id": 105,
+      "name": "廉颇",
+      "id_name": "lianpo",
+      "title": "正义爆轰",
+      "hero_type_name": "坦克",
+      "hero_type2_name": "",
+      "image": "heroes/images/105_lianpo.jpg",
+      "info": "heroes/info/105_lianpo.json"
+    },
+    {
+      "id": 106,
+      "name": "小乔",
+      "id_name": "xiaoqiao",
+      "title": "恋之微风",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/106_xiaoqiao.jpg",
+      "info": "heroes/info/106_xiaoqiao.json"
+    },
+    {
+      "id": 107,
+      "name": "赵云",
+      "id_name": "zhaoyun",
+      "title": "苍天翔龙",
+      "hero_type_name": "战士",
+      "hero_type2_name": "刺客",
+      "image": "heroes/images/107_zhaoyun.jpg",
+      "info": "heroes/info/107_zhaoyun.json"
+    },
+    {
+      "id": 108,
+      "name": "墨子",
+      "id_name": "mozi",
+      "title": "和平守望",
+      "hero_type_name": "法师",
+      "hero_type2_name": "战士",
+      "image": "heroes/images/108_mozi.jpg",
+      "info": "heroes/info/108_mozi.json"
+    },
+    {
+      "id": 109,
+      "name": "妲己",
+      "id_name": "daji",
+      "title": "魅力之狐",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/109_daji.jpg",
+      "info": "heroes/info/109_daji.json"
+    },
+    {
+      "id": 110,
+      "name": "嬴政",
+      "id_name": "yingzheng",
+      "title": "王者独尊",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/110_yingzheng.jpg",
+      "info": "heroes/info/110_yingzheng.json"
+    },
+    {
+      "id": 111,
+      "name": "孙尚香",
+      "id_name": "sunshangxiang",
+      "title": "千金重弩",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/111_sunshangxiang.jpg",
+      "info": "heroes/info/111_sunshangxiang.json"
+    },
+    {
+      "id": 112,
+      "name": "鲁班七号",
+      "id_name": "lubanqihao",
+      "title": "机关造物",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/112_lubanqihao.jpg",
+      "info": "heroes/info/112_lubanqihao.json"
+    },
+    {
+      "id": 113,
+      "name": "庄周",
+      "id_name": "zhuangzhou",
+      "title": "逍遥梦幻",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/113_zhuangzhou.jpg",
+      "info": "heroes/info/113_zhuangzhou.json"
+    },
+    {
+      "id": 114,
+      "name": "刘禅",
+      "id_name": "liushan",
+      "title": "暴走机关",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/114_liushan.jpg",
+      "info": "heroes/info/114_liushan.json"
+    },
+    {
+      "id": 115,
+      "name": "高渐离",
+      "id_name": "gaojianli",
+      "title": "叛逆吟游",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/115_gaojianli.jpg",
+      "info": "heroes/info/115_gaojianli.json"
+    },
+    {
+      "id": 116,
+      "name": "阿轲",
+      "id_name": "ake",
+      "title": "信念之刃",
+      "hero_type_name": "刺客",
+      "hero_type2_name": "",
+      "image": "heroes/images/116_ake.jpg",
+      "info": "heroes/info/116_ake.json"
+    },
+    {
+      "id": 117,
+      "name": "钟无艳",
+      "id_name": "zhongwuyan",
+      "title": "野蛮之锤",
+      "hero_type_name": "战士",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/117_zhongwuyan.jpg",
+      "info": "heroes/info/117_zhongwuyan.json"
+    },
+    {
+      "id": 118,
+      "name": "孙膑",
+      "id_name": "sunbin",
+      "title": "逆流之时",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "法师",
+      "image": "heroes/images/118_sunbin.jpg",
+      "info": "heroes/info/118_sunbin.json"
+    },
+    {
+      "id": 119,
+      "name": "扁鹊",
+      "id_name": "bianque",
+      "title": "善恶怪医",
+      "hero_type_name": "法师",
+      "hero_type2_name": "战士",
+      "image": "heroes/images/119_bianque.jpg",
+      "info": "heroes/info/119_bianque.json"
+    },
+    {
+      "id": 120,
+      "name": "白起",
+      "id_name": "baiqi",
+      "title": "最终兵器",
+      "hero_type_name": "坦克",
+      "hero_type2_name": "",
+      "image": "heroes/images/120_baiqi.jpg",
+      "info": "heroes/info/120_baiqi.json"
+    },
+    {
+      "id": 121,
+      "name": "芈月",
+      "id_name": "miyue",
+      "title": "永恒之月",
+      "hero_type_name": "法师",
+      "hero_type2_name": "战士",
+      "image": "heroes/images/121_miyue.jpg",
+      "info": "heroes/info/121_miyue.json"
+    },
+    {
+      "id": 123,
+      "name": "吕布",
+      "id_name": "lvbu",
+      "title": "无双之魔",
+      "hero_type_name": "战士",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/123_lvbu.jpg",
+      "info": "heroes/info/123_lvbu.json"
+    },
+    {
+      "id": 124,
+      "name": "周瑜",
+      "id_name": "zhouyv",
+      "title": "铁血都督",
+      "hero_type_name": "法师",
+      "hero_type2_name": "战士",
+      "image": "heroes/images/124_zhouyv.jpg",
+      "info": "heroes/info/124_zhouyv.json"
+    },
+    {
+      "id": 126,
+      "name": "夏侯惇",
+      "id_name": "xiahoudun",
+      "title": "不羁之风",
+      "hero_type_name": "坦克",
+      "hero_type2_name": "战士",
+      "image": "heroes/images/126_xiahoudun.jpg",
+      "info": "heroes/info/126_xiahoudun.json"
+    },
+    {
+      "id": 127,
+      "name": "甄姬",
+      "id_name": "zhenji",
+      "title": "洛神降临",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/127_zhenji.jpg",
+      "info": "heroes/info/127_zhenji.json"
+    },
+    {
+      "id": 128,
+      "name": "曹操",
+      "id_name": "caocao",
+      "title": "鲜血枭雄",
+      "hero_type_name": "战士",
+      "hero_type2_name": "",
+      "image": "heroes/images/128_caocao.jpg",
+      "info": "heroes/info/128_caocao.json"
+    },
+    {
+      "id": 129,
+      "name": "典韦",
+      "id_name": "dianwei",
+      "title": "狂战士",
+      "hero_type_name": "战士",
+      "hero_type2_name": "",
+      "image": "heroes/images/129_dianwei.jpg",
+      "info": "heroes/info/129_dianwei.json"
+    },
+    {
+      "id": 130,
+      "name": "宫本武藏",
+      "id_name": "gongbenwuzang",
+      "title": "剑圣",
+      "hero_type_name": "战士",
+      "hero_type2_name": "刺客",
+      "image": "heroes/images/130_gongbenwuzang.jpg",
+      "info": "heroes/info/130_gongbenwuzang.json"
+    },
+    {
+      "id": 131,
+      "name": "李白",
+      "id_name": "libai",
+      "title": "青莲剑仙",
+      "hero_type_name": "刺客",
+      "hero_type2_name": "",
+      "image": "heroes/images/131_libai.jpg",
+      "info": "heroes/info/131_libai.json"
+    },
+    {
+      "id": 132,
+      "name": "马可波罗",
+      "id_name": "makeboluo",
+      "title": "远游之枪",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/132_makeboluo.jpg",
+      "info": "heroes/info/132_makeboluo.json"
+    },
+    {
+      "id": 133,
+      "name": "狄仁杰",
+      "id_name": "direnjie",
+      "title": "断案大师",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/133_direnjie.jpg",
+      "info": "heroes/info/133_direnjie.json"
+    },
+    {
+      "id": 134,
+      "name": "达摩",
+      "id_name": "damo",
+      "title": "拳僧",
+      "hero_type_name": "战士",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/134_damo.jpg",
+      "info": "heroes/info/134_damo.json"
+    },
+    {
+      "id": 135,
+      "name": "项羽",
+      "id_name": "xiangyu",
+      "title": "霸王",
+      "hero_type_name": "坦克",
+      "hero_type2_name": "战士",
+      "image": "heroes/images/135_xiangyu.jpg",
+      "info": "heroes/info/135_xiangyu.json"
+    },
+    {
+      "id": 136,
+      "name": "武则天",
+      "id_name": "wuzetian",
+      "title": "女帝",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/136_wuzetian.jpg",
+      "info": "heroes/info/136_wuzetian.json"
+    },
+    {
+      "id": 139,
+      "name": "老夫子",
+      "id_name": "laofuzi",
+      "title": "万古长明",
+      "hero_type_name": "战士",
+      "hero_type2_name": "",
+      "image": "heroes/images/139_laofuzi.jpg",
+      "info": "heroes/info/139_laofuzi.json"
+    },
+    {
+      "id": 140,
+      "name": "关羽",
+      "id_name": "guanyu",
+      "title": "一骑当千",
+      "hero_type_name": "战士",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/140_guanyu.jpg",
+      "info": "heroes/info/140_guanyu.json"
+    },
+    {
+      "id": 141,
+      "name": "貂蝉",
+      "id_name": "diaochan",
+      "title": "绝世舞姬",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/141_diaochan.jpg",
+      "info": "heroes/info/141_diaochan.json"
+    },
+    {
+      "id": 142,
+      "name": "安琪拉",
+      "id_name": "anqila",
+      "title": "暗夜萝莉",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/142_anqila.jpg",
+      "info": "heroes/info/142_anqila.json"
+    },
+    {
+      "id": 144,
+      "name": "程咬金",
+      "id_name": "chengyaojin",
+      "title": "热烈之斧",
+      "hero_type_name": "坦克",
+      "hero_type2_name": "",
+      "image": "heroes/images/144_chengyaojin.jpg",
+      "info": "heroes/info/144_chengyaojin.json"
+    },
+    {
+      "id": 146,
+      "name": "露娜",
+      "id_name": "luna",
+      "title": "月光之女",
+      "hero_type_name": "刺客",
+      "hero_type2_name": "法师",
+      "image": "heroes/images/146_luna.jpg",
+      "info": "heroes/info/146_luna.json"
+    },
+    {
+      "id": 148,
+      "name": "姜子牙",
+      "id_name": "jiangziya",
+      "title": "封神者",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/148_jiangziya.jpg",
+      "info": "heroes/info/148_jiangziya.json"
+    },
+    {
+      "id": 149,
+      "name": "刘邦",
+      "id_name": "liubang",
+      "title": "双面君主",
+      "hero_type_name": "坦克",
+      "hero_type2_name": "法师",
+      "image": "heroes/images/149_liubang.jpg",
+      "info": "heroes/info/149_liubang.json"
+    },
+    {
+      "id": 150,
+      "name": "韩信",
+      "id_name": "hanxin",
+      "title": "国士无双",
+      "hero_type_name": "刺客",
+      "hero_type2_name": "",
+      "image": "heroes/images/150_hanxin.jpg",
+      "info": "heroes/info/150_hanxin.json"
+    },
+    {
+      "id": 152,
+      "name": "王昭君",
+      "id_name": "wangzhaojun",
+      "title": "冰雪之华",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/152_wangzhaojun.jpg",
+      "info": "heroes/info/152_wangzhaojun.json"
+    },
+    {
+      "id": 153,
+      "name": "兰陵王",
+      "id_name": "lanlingwang",
+      "title": "暗影刀锋",
+      "hero_type_name": "刺客",
+      "hero_type2_name": "",
+      "image": "heroes/images/153_lanlingwang.jpg",
+      "info": "heroes/info/153_lanlingwang.json"
+    },
+    {
+      "id": 154,
+      "name": "花木兰",
+      "id_name": "huamulan",
+      "title": "传说之刃",
+      "hero_type_name": "战士",
+      "hero_type2_name": "",
+      "image": "heroes/images/154_huamulan.jpg",
+      "info": "heroes/info/154_huamulan.json"
+    },
+    {
+      "id": 156,
+      "name": "张良",
+      "id_name": "zhangliang",
+      "title": "言灵之书",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/156_zhangliang.jpg",
+      "info": "heroes/info/156_zhangliang.json"
+    },
+    {
+      "id": 157,
+      "name": "不知火舞",
+      "id_name": "buzhihuowu",
+      "title": "明媚烈焰",
+      "hero_type_name": "刺客",
+      "hero_type2_name": "法师",
+      "image": "heroes/images/157_buzhihuowu.jpg",
+      "info": "heroes/info/157_buzhihuowu.json"
+    },
+    {
+      "id": 162,
+      "name": "娜可露露",
+      "id_name": "nakelulu",
+      "title": "鹰之守护",
+      "hero_type_name": "刺客",
+      "hero_type2_name": "",
+      "image": "heroes/images/162_nakelulu.jpg",
+      "info": "heroes/info/162_nakelulu.json"
+    },
+    {
+      "id": 163,
+      "name": "橘右京",
+      "id_name": "jvyoujing",
+      "title": "神梦一刀",
+      "hero_type_name": "刺客",
+      "hero_type2_name": "战士",
+      "image": "heroes/images/163_jvyoujing.jpg",
+      "info": "heroes/info/163_jvyoujing.json"
+    },
+    {
+      "id": 166,
+      "name": "亚瑟",
+      "id_name": "yase",
+      "title": "圣骑之力",
+      "hero_type_name": "战士",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/166_yase.jpg",
+      "info": "heroes/info/166_yase.json"
+    },
+    {
+      "id": 167,
+      "name": "孙悟空",
+      "id_name": "sunwukong",
+      "title": "齐天大圣",
+      "hero_type_name": "刺客",
+      "hero_type2_name": "",
+      "image": "heroes/images/167_sunwukong.jpg",
+      "info": "heroes/info/167_sunwukong.json"
+    },
+    {
+      "id": 168,
+      "name": "牛魔",
+      "id_name": "niumo",
+      "title": "精英酋长",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/168_niumo.jpg",
+      "info": "heroes/info/168_niumo.json"
+    },
+    {
+      "id": 169,
+      "name": "后羿",
+      "id_name": "houyi",
+      "title": "半神之弓",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/169_houyi.jpg",
+      "info": "heroes/info/169_houyi.json"
+    },
+    {
+      "id": 170,
+      "name": "刘备",
+      "id_name": "liubei",
+      "title": "仁德义枪",
+      "hero_type_name": "战士",
+      "hero_type2_name": "",
+      "image": "heroes/images/170_liubei.jpg",
+      "info": "heroes/info/170_liubei.json"
+    },
+    {
+      "id": 171,
+      "name": "张飞",
+      "id_name": "zhangfei",
+      "title": "禁血狂兽",
+      "hero_type_name": "坦克",
+      "hero_type2_name": "辅助",
+      "image": "heroes/images/171_zhangfei.jpg",
+      "info": "heroes/info/171_zhangfei.json"
+    },
+    {
+      "id": 173,
+      "name": "李元芳",
+      "id_name": "liyuanfang",
+      "title": "王都密探",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/173_liyuanfang.jpg",
+      "info": "heroes/info/173_liyuanfang.json"
+    },
+    {
+      "id": 174,
+      "name": "虞姬",
+      "id_name": "yuji",
+      "title": "森之风灵",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/174_yuji.jpg",
+      "info": "heroes/info/174_yuji.json"
+    },
+    {
+      "id": 175,
+      "name": "钟馗",
+      "id_name": "zhongkui",
+      "title": "虚灵城判",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/175_zhongkui.jpg",
+      "info": "heroes/info/175_zhongkui.json"
+    },
+    {
+      "id": 178,
+      "name": "杨戬",
+      "id_name": "yangjian",
+      "title": "根源之目",
+      "hero_type_name": "战士",
+      "hero_type2_name": "",
+      "image": "heroes/images/178_yangjian.jpg",
+      "info": "heroes/info/178_yangjian.json"
+    },
+    {
+      "id": 183,
+      "name": "雅典娜",
+      "id_name": "yadianna",
+      "title": "圣域余晖",
+      "hero_type_name": "战士",
+      "hero_type2_name": "刺客",
+      "image": "heroes/images/183_yadianna.jpg",
+      "info": "heroes/info/183_yadianna.json"
+    },
+    {
+      "id": 184,
+      "name": "蔡文姬",
+      "id_name": "caiwenji",
+      "title": "天籁弦音",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "法师",
+      "image": "heroes/images/184_caiwenji.jpg",
+      "info": "heroes/info/184_caiwenji.json"
+    },
+    {
+      "id": 186,
+      "name": "太乙真人",
+      "id_name": "taiyizhenren",
+      "title": "炼金大师",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/186_taiyizhenren.jpg",
+      "info": "heroes/info/186_taiyizhenren.json"
+    },
+    {
+      "id": 180,
+      "name": "哪吒",
+      "id_name": "nezha",
+      "title": "桀骜炎枪",
+      "hero_type_name": "战士",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/180_nezha.jpg",
+      "info": "heroes/info/180_nezha.json"
+    },
+    {
+      "id": 190,
+      "name": "诸葛亮",
+      "id_name": "zhugeliang",
+      "title": "绝代智谋",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/190_zhugeliang.jpg",
+      "info": "heroes/info/190_zhugeliang.json"
+    },
+    {
+      "id": 192,
+      "name": "黄忠",
+      "id_name": "huangzhong",
+      "title": "燃魂重炮",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/192_huangzhong.jpg",
+      "info": "heroes/info/192_huangzhong.json"
+    },
+    {
+      "id": 191,
+      "name": "大乔",
+      "id_name": "daqiao",
+      "title": "沧海之曜",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "法师",
+      "image": "heroes/images/191_daqiao.jpg",
+      "info": "heroes/info/191_daqiao.json"
+    },
+    {
+      "id": 187,
+      "name": "东皇太一",
+      "id_name": "donghuangtaiyi",
+      "title": "噬灭日蚀",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "法师",
+      "image": "heroes/images/187_donghuangtaiyi.jpg",
+      "info": "heroes/info/187_donghuangtaiyi.json"
+    },
+    {
+      "id": 182,
+      "name": "干将莫邪",
+      "id_name": "ganjiangmoye",
+      "title": "淬命双剑",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/182_ganjiangmoye.jpg",
+      "info": "heroes/info/182_ganjiangmoye.json"
+    },
+    {
+      "id": 189,
+      "name": "鬼谷子",
+      "id_name": "guiguzi",
+      "title": "万物有灵",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "法师",
+      "image": "heroes/images/189_guiguzi.jpg",
+      "info": "heroes/info/189_guiguzi.json"
+    },
+    {
+      "id": 193,
+      "name": "铠",
+      "id_name": "kai",
+      "title": "破灭刃锋",
+      "hero_type_name": "战士",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/193_kai.jpg",
+      "info": "heroes/info/193_kai.json"
+    },
+    {
+      "id": 196,
+      "name": "百里守约",
+      "id_name": "bailishouyue",
+      "title": "静谧之眼",
+      "hero_type_name": "射手",
+      "hero_type2_name": "刺客",
+      "image": "heroes/images/196_bailishouyue.jpg",
+      "info": "heroes/info/196_bailishouyue.json"
+    },
+    {
+      "id": 195,
+      "name": "百里玄策",
+      "id_name": "bailixuance",
+      "title": "嚣狂之镰",
+      "hero_type_name": "刺客",
+      "hero_type2_name": "",
+      "image": "heroes/images/195_bailixuance.jpg",
+      "info": "heroes/info/195_bailixuance.json"
+    },
+    {
+      "id": 194,
+      "name": "苏烈",
+      "id_name": "sulie",
+      "title": "不屈铁壁",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/194_sulie.jpg",
+      "info": "heroes/info/194_sulie.json"
+    },
+    {
+      "id": 198,
+      "name": "梦奇",
+      "id_name": "mengqi",
+      "title": "入梦之灵",
+      "hero_type_name": "坦克",
+      "hero_type2_name": "法师",
+      "image": "heroes/images/198_mengqi.jpg",
+      "info": "heroes/info/198_mengqi.json"
+    },
+    {
+      "id": 179,
+      "name": "女娲",
+      "id_name": "nvwa",
+      "title": "至高创世",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/179_nvwa.jpg",
+      "info": "heroes/info/179_nvwa.json"
+    },
+    {
+      "id": 501,
+      "name": "明世隐",
+      "id_name": "mingshiyin",
+      "title": "灵魂劫卜",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "",
+      "image": "heroes/images/501_mingshiyin.jpg",
+      "info": "heroes/info/501_mingshiyin.json"
+    },
+    {
+      "id": 199,
+      "name": "公孙离",
+      "id_name": "gongsunli",
+      "title": "幻舞玲珑",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/199_gongsunli.jpg",
+      "info": "heroes/info/199_gongsunli.json"
+    },
+    {
+      "id": 176,
+      "name": "杨玉环",
+      "id_name": "yangyuhuan",
+      "title": "霓裳风华",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/176_yangyuhuan.jpg",
+      "info": "heroes/info/176_yangyuhuan.json"
+    },
+    {
+      "id": 502,
+      "name": "裴擒虎",
+      "id_name": "peiqinhu",
+      "title": "六合虎拳",
+      "hero_type_name": "刺客",
+      "hero_type2_name": "",
+      "image": "heroes/images/502_peiqinhu.jpg",
+      "info": "heroes/info/502_peiqinhu.json"
+    },
+    {
+      "id": 197,
+      "name": "弈星",
+      "id_name": "yixing",
+      "title": "天元之弈",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/197_yixing.jpg",
+      "info": "heroes/info/197_yixing.json"
+    },
+    {
+      "id": 503,
+      "name": "狂铁",
+      "id_name": "kuangtie",
+      "title": "战车意志",
+      "hero_type_name": "战士",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/503_kuangtie.jpg",
+      "info": "heroes/info/503_kuangtie.json"
+    },
+    {
+      "id": 504,
+      "name": "米莱狄",
+      "id_name": "milaidi",
+      "title": "筑城者",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/504_milaidi.jpg",
+      "info": "heroes/info/504_milaidi.json"
+    },
+    {
+      "id": 125,
+      "name": "元歌",
+      "id_name": "yuange",
+      "title": "无间傀儡",
+      "hero_type_name": "刺客",
+      "hero_type2_name": "",
+      "image": "heroes/images/125_yuange.jpg",
+      "info": "heroes/info/125_yuange.json"
+    },
+    {
+      "id": 510,
+      "name": "孙策",
+      "id_name": "sunce",
+      "title": "光明之海",
+      "hero_type_name": "坦克",
+      "hero_type2_name": "战士",
+      "image": "heroes/images/510_sunce.jpg",
+      "info": "heroes/info/510_sunce.json"
+    },
+    {
+      "id": 137,
+      "name": "司马懿",
+      "id_name": "simayi",
+      "title": "寂灭之心",
+      "hero_type_name": "刺客",
+      "hero_type2_name": "法师",
+      "image": "heroes/images/137_simayi.jpg",
+      "info": "heroes/info/137_simayi.json"
+    },
+    {
+      "id": 509,
+      "name": "盾山",
+      "id_name": "dunshan",
+      "title": "无尽之盾",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/509_dunshan.jpg",
+      "info": "heroes/info/509_dunshan.json"
+    },
+    {
+      "id": 508,
+      "name": "伽罗",
+      "id_name": "jialuo",
+      "title": "破魔之箭",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/508_jialuo.jpg",
+      "info": "heroes/info/508_jialuo.json"
+    },
+    {
+      "id": 312,
+      "name": "沈梦溪",
+      "id_name": "shenmengxi",
+      "title": "爆弹怪猫",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/312_shenmengxi.jpg",
+      "info": "heroes/info/312_shenmengxi.json"
+    },
+    {
+      "id": 507,
+      "name": "李信",
+      "id_name": "lixin",
+      "title": "谋世之战",
+      "hero_type_name": "战士",
+      "hero_type2_name": "",
+      "image": "heroes/images/507_lixin.jpg",
+      "info": "heroes/info/507_lixin.json"
+    },
+    {
+      "id": 513,
+      "name": "上官婉儿",
+      "id_name": "shangguanwaner",
+      "title": "惊鸿之笔",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/513_shangguanwaner.jpg",
+      "info": "heroes/info/513_shangguanwaner.json"
+    },
+    {
+      "id": 515,
+      "name": "嫦娥",
+      "id_name": "change",
+      "title": "寒月公主",
+      "hero_type_name": "法师",
+      "hero_type2_name": "战士",
+      "image": "heroes/images/515_change.jpg",
+      "info": "heroes/info/515_change.json"
+    },
+    {
+      "id": 511,
+      "name": "猪八戒",
+      "id_name": "zhubajie",
+      "title": "无忧猛士",
+      "hero_type_name": "坦克",
+      "hero_type2_name": "",
+      "image": "heroes/images/511_zhubajie.jpg",
+      "info": "heroes/info/511_zhubajie.json"
+    },
+    {
+      "id": 529,
+      "name": "盘古",
+      "id_name": "pangu",
+      "title": "破晓之神",
+      "hero_type_name": "战士",
+      "hero_type2_name": "",
+      "image": "heroes/images/529_pangu.jpg",
+      "info": "heroes/info/529_pangu.json"
+    },
+    {
+      "id": 505,
+      "name": "瑶",
+      "id_name": "yao",
+      "title": "鹿灵守心",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "法师",
+      "image": "heroes/images/505_yao.jpg",
+      "info": "heroes/info/505_yao.json"
+    },
+    {
+      "id": 506,
+      "name": "云中君",
+      "id_name": "yunzhongjun",
+      "title": "流云之翼",
+      "hero_type_name": "刺客",
+      "hero_type2_name": "",
+      "image": "heroes/images/506_yunzhongjun.jpg",
+      "info": "heroes/info/506_yunzhongjun.json"
+    },
+    {
+      "id": 522,
+      "name": "曜",
+      "id_name": "dongfangyao",
+      "title": "星辰之子",
+      "hero_type_name": "战士",
+      "hero_type2_name": "刺客",
+      "image": "heroes/images/522_dongfangyao.jpg",
+      "info": "heroes/info/522_dongfangyao.json"
+    },
+    {
+      "id": 518,
+      "name": "马超",
+      "id_name": "machao",
+      "title": "冷晖之枪",
+      "hero_type_name": "战士",
+      "hero_type2_name": "",
+      "image": "heroes/images/518_machao.jpg",
+      "info": "heroes/info/518_machao.json"
+    },
+    {
+      "id": 523,
+      "name": "西施",
+      "id_name": "xishi",
+      "title": "幻纱之灵",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/523_xishi.jpg",
+      "info": "heroes/info/523_xishi.json"
+    },
+    {
+      "id": 525,
+      "name": "鲁班大师",
+      "id_name": "lubandashi",
+      "title": "神匠",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/525_lubandashi.jpg",
+      "info": "heroes/info/525_lubandashi.json"
+    },
+    {
+      "id": 524,
+      "name": "蒙犽",
+      "id_name": "mengya",
+      "title": "烈炮小子",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/524_mengya.jpg",
+      "info": "heroes/info/524_mengya.json"
+    },
+    {
+      "id": 531,
+      "name": "镜",
+      "id_name": "jing",
+      "title": "破镜之刃",
+      "hero_type_name": "刺客",
+      "hero_type2_name": "",
+      "image": "heroes/images/531_jing.jpg",
+      "info": "heroes/info/531_jing.json"
+    },
+    {
+      "id": 527,
+      "name": "蒙恬",
+      "id_name": "mengtian",
+      "title": "秩序统将",
+      "hero_type_name": "坦克",
+      "hero_type2_name": "",
+      "image": "heroes/images/527_mengtian.jpg",
+      "info": "heroes/info/527_mengtian.json"
+    },
+    {
+      "id": 533,
+      "name": "阿古朵",
+      "id_name": "aguduo",
+      "title": "山林之子",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/533_aguduo.jpg",
+      "info": "heroes/info/533_aguduo.json"
+    },
+    {
+      "id": 536,
+      "name": "夏洛特",
+      "id_name": "xialuote",
+      "title": "玫瑰剑士",
+      "hero_type_name": "战士",
+      "hero_type2_name": "",
+      "image": "heroes/images/536_xialuote.jpg",
+      "info": "heroes/info/536_xialuote.json"
+    },
+    {
+      "id": 528,
+      "name": "澜",
+      "id_name": "lan",
+      "title": "鲨之猎刃",
+      "hero_type_name": "刺客",
+      "hero_type2_name": "战士",
+      "image": "heroes/images/528_lan.jpg",
+      "info": "heroes/info/528_lan.json"
+    },
+    {
+      "id": 537,
+      "name": "司空震",
+      "id_name": "sikongzhen",
+      "title": "雷霆之王",
+      "hero_type_name": "战士",
+      "hero_type2_name": "法师",
+      "image": "heroes/images/537_sikongzhen.jpg",
+      "info": "heroes/info/537_sikongzhen.json"
+    },
+    {
+      "id": 155,
+      "name": "艾琳",
+      "id_name": "ailin",
+      "title": "精灵之舞",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/155_ailin.jpg",
+      "info": "heroes/info/155_ailin.json"
+    },
+    {
+      "id": 538,
+      "name": "云缨",
+      "id_name": "yunying",
+      "title": "燎原之心",
+      "hero_type_name": "战士",
+      "hero_type2_name": "刺客",
+      "image": "heroes/images/538_yunying.jpg",
+      "info": "heroes/info/538_yunying.json"
+    },
+    {
+      "id": 540,
+      "name": "金蝉",
+      "id_name": "jinchan",
+      "title": "渡世行者",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/540_jinchan.jpg",
+      "info": "heroes/info/540_jinchan.json"
+    },
+    {
+      "id": 542,
+      "name": "暃",
+      "id_name": "fei",
+      "title": "玉城之子",
+      "hero_type_name": "刺客",
+      "hero_type2_name": "",
+      "image": "heroes/images/542_fei.jpg",
+      "info": "heroes/info/542_fei.json"
+    },
+    {
+      "id": 534,
+      "name": "桑启",
+      "id_name": "sangqi",
+      "title": "萤火之旅",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "法师",
+      "image": "heroes/images/534_sangqi.jpg",
+      "info": "heroes/info/534_sangqi.json"
+    },
+    {
+      "id": 548,
+      "name": "戈娅",
+      "id_name": "geya",
+      "title": "沙海飞舟",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/548_geya.jpg",
+      "info": "heroes/info/548_geya.json"
+    },
+    {
+      "id": 521,
+      "name": "海月",
+      "id_name": "haiyue",
+      "title": "永夜之心",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/521_haiyue.jpg",
+      "info": "heroes/info/521_haiyue.json"
+    },
+    {
+      "id": 544,
+      "name": "赵怀真",
+      "id_name": "zhaohuaizhen",
+      "title": "自在之心",
+      "hero_type_name": "战士",
+      "hero_type2_name": "",
+      "image": "heroes/images/544_zhaohuaizhen.jpg",
+      "info": "heroes/info/544_zhaohuaizhen.json"
+    },
+    {
+      "id": 545,
+      "name": "莱西奥",
+      "id_name": "laixiao",
+      "title": "火鹰船长",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/545_laixiao.jpg",
+      "info": "heroes/info/545_laixiao.json"
+    },
+    {
+      "id": 564,
+      "name": "姬小满",
+      "id_name": "jixiaoman",
+      "title": "武道奇才",
+      "hero_type_name": "战士",
+      "hero_type2_name": "",
+      "image": "heroes/images/564_jixiaoman.jpg",
+      "info": "heroes/info/564_jixiaoman.json"
+    },
+    {
+      "id": 514,
+      "name": "亚连",
+      "id_name": "yalian",
+      "title": "追忆之刃",
+      "hero_type_name": "战士",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/514_yalian.jpg",
+      "info": "heroes/info/514_yalian.json"
+    },
+    {
+      "id": 159,
+      "name": "朵莉亚",
+      "id_name": "duoliya",
+      "title": "人鱼之歌",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "法师",
+      "image": "heroes/images/159_duoliya.jpg",
+      "info": "heroes/info/159_duoliya.json"
+    },
+    {
+      "id": 563,
+      "name": "海诺",
+      "id_name": "hainuo",
+      "title": "命运之引",
+      "hero_type_name": "战士",
+      "hero_type2_name": "法师",
+      "image": "heroes/images/563_hainuo.jpg",
+      "info": "heroes/info/563_hainuo.json"
+    },
+    {
+      "id": 519,
+      "name": "敖隐",
+      "id_name": "aoyin",
+      "title": "凌霄真龙",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/519_aoyin.jpg",
+      "info": "heroes/info/519_aoyin.json"
+    },
+    {
+      "id": 517,
+      "name": "大司命",
+      "id_name": "dasiming",
+      "title": "肃归之戈",
+      "hero_type_name": "战士",
+      "hero_type2_name": "",
+      "image": "heroes/images/517_dasiming.jpg",
+      "info": "heroes/info/517_dasiming.json"
+    },
+    {
+      "id": 582,
+      "name": "元流之子(法师)",
+      "id_name": "yuanliuzhizi_magic",
+      "title": "万妙之心",
+      "hero_type_name": "法师",
+      "hero_type2_name": "",
+      "image": "heroes/images/582_yuanliuzhizi_magic.jpg",
+      "info": "heroes/info/582_yuanliuzhizi_magic.json"
+    },
+    {
+      "id": 581,
+      "name": "元流之子(坦克)",
+      "id_name": "yuanliuzhizi_tank",
+      "title": "止戈之道",
+      "hero_type_name": "坦克",
+      "hero_type2_name": "",
+      "image": "heroes/images/581_yuanliuzhizi_tank.jpg",
+      "info": "heroes/info/581_yuanliuzhizi_tank.json"
+    },
+    {
+      "id": 577,
+      "name": "少司缘",
+      "id_name": "shaosiyuan",
+      "title": "聆愿之祝",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "",
+      "image": "heroes/images/577_shaosiyuan.jpg",
+      "info": "heroes/info/577_shaosiyuan.json"
+    },
+    {
+      "id": 558,
+      "name": "影",
+      "id_name": "ying",
+      "title": "黯羽东君",
+      "hero_type_name": "战士",
+      "hero_type2_name": "",
+      "image": "heroes/images/558_ying.jpg",
+      "info": "heroes/info/558_ying.json"
+    },
+    {
+      "id": 177,
+      "name": "苍",
+      "id_name": "cang",
+      "title": "苍狼末裔",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/177_cang.jpg",
+      "info": "heroes/info/177_cang.json"
+    },
+    {
+      "id": 550,
+      "name": "空空儿",
+      "id_name": "kongkonger",
+      "title": "笑面诡手",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "",
+      "image": "heroes/images/550_kongkonger.jpg",
+      "info": "heroes/info/550_kongkonger.json"
+    },
+    {
+      "id": 584,
+      "name": "元流之子(射手)",
+      "id_name": "yuanliuzhizi_archer",
+      "title": "沉舟之志",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/584_yuanliuzhizi_archer.jpg",
+      "info": "heroes/info/584_yuanliuzhizi_archer.json"
+    },
+    {
+      "id": 151,
+      "name": "孙权",
+      "id_name": "sunquan",
+      "title": "定旌之谋",
+      "hero_type_name": "射手",
+      "hero_type2_name": "",
+      "image": "heroes/images/151_sunquan.jpg",
+      "info": "heroes/info/151_sunquan.json"
+    },
+    {
+      "id": 172,
+      "name": "蚩奼",
+      "id_name": "chicha",
+      "title": "五兵之主",
+      "hero_type_name": "战士",
+      "hero_type2_name": "",
+      "image": "heroes/images/172_chicha.jpg",
+      "info": "heroes/info/172_chicha.json"
+    },
+    {
+      "id": 585,
+      "name": "元流之子(辅助)",
+      "id_name": "yuanliuzhizi_support",
+      "title": "守望之诺",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "",
+      "image": "heroes/images/585_yuanliuzhizi_support.jpg",
+      "info": "heroes/info/585_yuanliuzhizi_support.json"
+    },
+    {
+      "id": 188,
+      "name": "大禹",
+      "id_name": "dayu",
+      "title": "鼎镇山河",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "坦克",
+      "image": "heroes/images/188_dayu.jpg",
+      "info": "heroes/info/188_dayu.json"
+    },
+    {
+      "id": 583,
+      "name": "元流之子(刺客)",
+      "id_name": "yuanliuzhizi_assassin",
+      "title": "守望之诺",
+      "hero_type_name": "辅助",
+      "hero_type2_name": "",
+      "image": "heroes/images/583_yuanliuzhizi_assassin.jpg",
+      "info": "heroes/info/583_yuanliuzhizi_assassin.json"
+    }
+  ]
+}

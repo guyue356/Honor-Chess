@@ -1,0 +1,11 @@
+name = "honor-chess-api"
+main = "src/index.ts"
+compatibility_date = "2024-06-20"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "honor-chess-db"
+database_id = "placeholder-replace-after-creation"
+
+[vars]
+JWT_SECRET = "honor-chess-secret-key-2024"
