@@ -36,3 +36,5 @@ pnpm-debug.log*
 # Wrangler state
 .wrangler/
 .dev.vars
+
+package-lock.json
